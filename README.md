@@ -4,12 +4,12 @@ This Demo Web API Service is created using Flask framework.It is super easy to u
 
 Here are the modules needed:
 ######  The modules list can also be found on the requirements.txt file.
-  Flask
-  Flask-SQLAlchemy
-  Flask-Marshmallow
-  Marshmallow-SQLAlchemy
-  Flask-Login
-  python-slugify
+ Flask,
+ Flask-SQLAlchemy,
+ Flask-Marshmallow,
+ Marshmallow-SQLAlchemy,
+ Flask-Login,
+ python-slugify
 ###### 
 
 The steps after extracting the files:
