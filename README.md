@@ -2,8 +2,8 @@
 
 This Demo Web API Service is created using Flask framework. It is super easy to use(coming from Python :)), which will provide the basic components of a modern framework like supporting database interface extensions, JSON data validation, out of the box development web server...
 
-Here are the modules needed:
-######  The modules list can also be found on the requirements.txt file.
+Here are the modules needed(The modules list can also be found on the requirements.txt file):
+###### 
  Flask,
  Flask-SQLAlchemy,
  Flask-Marshmallow,
