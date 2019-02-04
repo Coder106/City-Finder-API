@@ -12,14 +12,14 @@ Here are the modules needed(The modules list can also be found on the requiremen
  python-slugify
 ###### 
 
-The steps after extracting the files:
+The steps after extracting the files:   
     1. In app.py module modify per need the ip address and port number you would like to run the server at:
-        "app.run(host='127.0.0.1', port='8000', debug=True)"
-    2. If you are running the web server in development mode run the command
+        "app.run(host='127.0.0.1', port='8000', debug=True)"   
+    2. If you are running the web server in development mode run the command   
     "python app.py" , if a 'hot-reload' is needed you can set the 'debug=True'  inside the app.run(), that enables the app to pick the code update without re-starting web server manually. 
     OR For Development :
-    -Run "gunicorn -w 4 -b 127.0.0.1:8000 app:app"  the first app represents your application module name and the second is set to app by default.Since our application's main module is app we can use the command as it is.
-    3. To stop web server you can use CTRL + C for development mode OR for production we could use nginx combined with gunicorn & supervisor to manage the start,stop and restart the server.That is all from web server side.easy right?
+    -Run "gunicorn -w 4 -b 127.0.0.1:8000 app:app"  the first app represents your application module name and the second is set to app by default.Since our application's main module is app we can use the command as it is.   
+    3. To stop web server you can use CTRL + C for development mode OR for production we could use nginx combined with gunicorn & supervisor to manage the start,stop and restart the server.That is all from web server side.easy right?   
 
 After running the server go to http://127.0.0.1:8000/city_mapper/read/ in your browser.It should respond with {"status": "failure", "message": "Invalid request"} since the it's expecting a JSON payload .
 
